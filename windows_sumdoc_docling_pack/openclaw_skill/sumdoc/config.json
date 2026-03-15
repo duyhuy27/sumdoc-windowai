@@ -1,0 +1,9 @@
+{
+  "service": "sumdoc",
+  "provider": "local",
+  "settings": {
+    "mode": "docling_extract_only",
+    "runtime_home_env": "SUMDOC_DOCLING_HOME",
+    "default_timeout": 120
+  }
+}
