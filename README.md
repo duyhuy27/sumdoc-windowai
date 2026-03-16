@@ -21,4 +21,4 @@ Trong khung giờ cao điểm từ 06:30 đến 08:30 và từ 16:30 đến 18:3
 
 Phương tiện không đáp ứng tiêu chuẩn khí thải theo quy định của cơ quan quản lý môi trường có thể bị hạn chế lưu thông hoặc buộc kiểm định lại trước khi tiếp tục sử dụng.
 
-Trường hợp vi phạm các quy định nêu trên, người điều khiển phương tiện có thể bị xử phạt hành chính, tạm giữ phương tiện hoặc áp dụng các biện pháp xử lý bổ sung theo quy định của pháp luật hiện hành.
+Trường hợp vi phạm các quy định nêu trên, người điều khiển phương tiện có thể bị xử phạt hành chính, tạm giữ phương tiện hoặc áp dụng các biện pháp xử lý bổ sung theo quy định của pháp luật hiện hành. "sk-s5oa62540mzijo1wcmm8j0a85ww5va2fty9occgwgapfpe9"
