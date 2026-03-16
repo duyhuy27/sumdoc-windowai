@@ -1,0 +1,5 @@
+setx SUMDOC_DOCLING_HOME "D:\handover\windows_sumdoc_docling_pack\runtime"
+setx SUMDOC_SUMMARIZE_API_URL "http://localhost:8000/summarize"
+setx SUMDOC_MAX_NEW_TOKEN "50"
+setx SUMDOC_API_TIMEOUT_S "600"
+setx SUMDOC_LOG_FILE "D:\logs\sumdoc_runtime.jsonl"
