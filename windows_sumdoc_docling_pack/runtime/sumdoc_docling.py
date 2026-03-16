@@ -9,8 +9,8 @@ Flow:
   4) Print summary (or full JSON with --json)
 
 Detailed forensic logs:
-  - stdout stage logs
-  - jsonl diagnostic log file
+  - jsonl diagnostic log file (always on)
+  - optional stderr logs (SUMDOC_LOG_STDOUT=1)
 """
 from __future__ import annotations
 
@@ -38,6 +38,7 @@ DEFAULT_TIMEOUT_S = 600
 RUN_ID = os.environ.get("SUMDOC_RUN_ID", uuid4().hex[:12])
 RUN_START = time.monotonic()
 DEFAULT_LOG_FILE = Path(os.environ.get("SUMDOC_LOG_FILE", f"sumdoc_runtime_{RUN_ID}.jsonl"))
+LOG_STDOUT = os.environ.get("SUMDOC_LOG_STDOUT", "0").strip().lower() in {"1", "true", "yes", "on"}
 
 
 def _now_iso() -> str:
@@ -53,7 +54,8 @@ def _diag_log(event: str, log_file: Path, **fields) -> None:
     }
     payload.update(fields)
     line = json.dumps(payload, ensure_ascii=False)
-    print(f"[LOG] {line}")
+    if LOG_STDOUT:
+        print(f"[LOG] {line}", file=sys.stderr)
     try:
         with log_file.open("a", encoding="utf-8") as f:
             f.write(line + "\n")
