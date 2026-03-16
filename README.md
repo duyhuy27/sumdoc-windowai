@@ -11,3 +11,14 @@ ngữ tự nhiên. Nhà phát triển có thể sử dụng Python API để com
 trên hơn 80 thiết bị Qualcomm thực tế được host trên cloud. Điều này giúp rút ngắn đáng kể
 thời gian từ nghiên cứu đến sản phẩm, vì không cần mua phần cứng Snapdragon thực để kiểm
 thử ban đầu.
+
+
+Điều 12. Quy định về sử dụng phương tiện giao thông cá nhân trong khu vực đô thị
+
+Người điều khiển phương tiện giao thông cá nhân khi lưu thông trong khu vực đô thị phải tuân thủ đầy đủ hệ thống biển báo, tín hiệu giao thông và hướng dẫn của lực lượng điều tiết giao thông.
+
+Trong khung giờ cao điểm từ 06:30 đến 08:30 và từ 16:30 đến 18:30, chính quyền địa phương có thể áp dụng biện pháp hạn chế hoặc phân luồng đối với một số loại phương tiện cá nhân nhằm giảm ùn tắc giao thông.
+
+Phương tiện không đáp ứng tiêu chuẩn khí thải theo quy định của cơ quan quản lý môi trường có thể bị hạn chế lưu thông hoặc buộc kiểm định lại trước khi tiếp tục sử dụng.
+
+Trường hợp vi phạm các quy định nêu trên, người điều khiển phương tiện có thể bị xử phạt hành chính, tạm giữ phương tiện hoặc áp dụng các biện pháp xử lý bổ sung theo quy định của pháp luật hiện hành.
